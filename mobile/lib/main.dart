@@ -19,7 +19,7 @@ class PingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Covoit'Campus test stp")),
+      appBar: AppBar(title: const Text("Covoit'Campus")),
       body: Center(
         child: FutureBuilder<String>(
           future: ApiService().ping(),
