@@ -1,4 +1,3 @@
-.editorconfig : mêmes indentations pour tout le monde.
 root = true
 
 [*]
